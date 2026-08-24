@@ -23,7 +23,10 @@ Load the script and execute `ob-flutterui-setup`.
 ;; (require 'ob-flutterui')
 ;; (load-file "<location>/ob-flutterui.el")
 (load! "ob-flutterui") ;; if using a known path like doom config
+
+;; Location of the project to use for building screenshots
 (setq ob-flutterui-project-path "<project path>")
+
 (ob-flutterui-setup)
 #+END_EXAMPLE
 
@@ -111,6 +114,6 @@ class TicTacToeUI extends StatelessWidget {
   }
 }
 #+END_SRC
-#+END_EXAMPL
+#+END_EXAMPLE
 
 [[./assets/tictactoe.png]]
