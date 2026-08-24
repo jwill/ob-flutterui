@@ -111,6 +111,6 @@ class TicTacToeUI extends StatelessWidget {
   }
 }
 #+END_SRC
-#+END_EXAMPL
+#+END_EXAMPLE
 
 [[./assets/tictactoe.png]]
