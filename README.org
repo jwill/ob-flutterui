@@ -1,13 +1,13 @@
 
 * ob-flutterui
 
-This package allows you to render Flutter widgets using Emacs https://orgmode.org/worg/org-contrib/babel/intro.html[org-babel].
+This package allows you to render Flutter widgets using Emacs [[https://orgmode.org/worg/org-contrib/babel/intro.html][org-babel]].
 
-The inspiration for this package is Xenodium's https://github.com/xenodium/ob-swiftui[ob-swiftui] and the inspirations for that project.
+The inspiration for this package is Xenodium's [[https://github.com/xenodium/ob-swiftui][ob-swiftui]] and the inspirations for that project.
 
 * Flutter Setup
 
-Assumming you already have http://flutter.dev[Flutter] installed. Create an empty project to use. We only need to add the pub package listed below and everything else is sorted at run-time by the script.
+Assumming you already have [[http://flutter.dev][Flutter]] installed. Create an empty project to use. We only need to add the pub package listed below and everything else is sorted at run-time by the script.
 
 #+BEGIN_EXAMPLE shell
 flutter create <project_name> --empty
@@ -59,7 +59,7 @@ Text("Hello World", style:TextStyle(fontSize:48))
 
 You can set a custom widget to be used as the basis of the screenshot. Behind the scenes, it is injecting an instance of that widget as a child of =MaterialApp=.
 
-#+BEGIN_EXAMPLE elisp
+#+BEGIN_EXAMPLE
 #+BEGIN_SRC flutterui :results file :file tictactoe.png :view TicTacToeUI
 class TicTacToeUI extends StatelessWidget {
   const TicTacToeUI({super.key});
